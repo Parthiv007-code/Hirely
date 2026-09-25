@@ -1,5 +1,5 @@
 import React from 'react'
-import randomphoto from "../../Assets/randomphoto.jpeg"
+import randomphoto from "../../Assets/hireaxil_logo.png"
 
 function Navbar() {
   return (
@@ -19,7 +19,7 @@ function Navbar() {
 
       <div className='search'>
         <p>search</p>
-        <i className="bi bi-search"></i>
+        <button><i className="bi bi-search"></i></button>
         <input type="search" placeholder="search" />
       </div>
 
